@@ -9,11 +9,11 @@ import triangle
 class CircleTestCase(unittest.TestCase):
     def test_area(self):
         res = circle.area(5)
-        self.assertEqual(res, math.pi * 25)
+        self.assertEqual(res, 78.53981633974483)
 
     def test_perimeter(self):
         res = circle.perimeter(5)
-        self.assertEqual(res, 2 * math.pi * 5)
+        self.assertEqual(res, 31.41592653589793)
 
     def test_negative(self):
         res = circle.area(-5)
